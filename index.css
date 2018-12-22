@@ -1,0 +1,150 @@
+.devicon{
+    max-width: 8rem;
+}
+
+.devicon-footer{
+    font-size: 3.5rem;
+}
+
+.header-bg{
+    background-image: url("/img/3.jpg");
+    max-height: 90vh;   
+}
+
+#myVideo {
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .15;
+  overflow: hidden; 
+  }
+
+  #img-1{
+      border-radius: 4%;
+      border: 5px
+  }
+
+  #pop{
+    position: relative;
+    padding: 17rem 0;
+    height: 100vh;
+    
+  }
+@media only screen and (max-width: 600px) {
+    #pop{
+        padding: 5rem 0;
+        height: 100%;
+    }        
+}
+/* @media only screen and (orientation: portrait) {
+  #pop{
+    padding: 5rem 0;
+    height: 100%;
+  }
+} */
+
+  .padding-helper{
+      padding-top: 3rem;
+  }
+/* fb */
+  .fb-color{
+    color: #3c5a99;
+    animation-name:fb-animation-in;
+    animation-duration: .5s; 
+  }
+
+  @keyframes fb-animation-in {
+    from {color:#bdbdbd ;}
+    to {color: #3c5a99;}
+  }
+  
+  @keyframes fb-animation-out {
+    from {color:#3c5a99 ;}
+    to {color: #bdbdbd;}
+  }
+
+  .fb-color-out{
+      color: #bdbdbd;
+      animation-name: fb-animation-out;
+      animation-duration: .5s;
+  }
+/* github */
+  .gh-color{
+    color: #6e5494;
+    animation-name:gh-animation-in;
+    animation-duration: .5s; 
+  }
+
+  @keyframes gh-animation-in {
+    from {color:#bdbdbd ;}
+    to {color: #6e5494;}
+  }
+  
+  @keyframes gh-animation-out {
+    from {color:#6e5494 ;}
+    to {color: #bdbdbd;}
+  }
+
+  .gh-color-out{
+      color: #bdbdbd;
+      animation-name: gh-animation-out;
+      animation-duration: .5s;
+  }
+/* linked in */
+  .li-color{
+    color: #0077B5;
+    animation-name:li-animation-in;
+    animation-duration: .5s; 
+  }
+
+  @keyframes li-animation-in {
+    from {color:#bdbdbd ;}
+    to {color: #0077B5;}
+  }
+  
+  @keyframes li-animation-out {
+    from {color:#0077B5 ;}
+    to {color: #bdbdbd;}
+  }
+
+  .li-color-out{
+      color: #bdbdbd;
+      animation-name: li-animation-out;
+      animation-duration: .5s;
+  }
+/* instagram */
+  .ig-color{
+    color: #bc2a8d;
+    animation-name:ig-animation-in;
+    animation-duration: .5s; 
+  }
+
+  @keyframes ig-animation-in {
+    from {color:#bdbdbd ;}
+    to {color: #bc2a8d;}
+  }
+  
+  @keyframes ig-animation-out {
+    from {color:#bc2a8d ;}
+    to {color: #bdbdbd;}
+  }
+
+  .ig-color-out{
+      color: #bdbdbd;
+      animation-name: ig-animation-out;
+      animation-duration: .5s;
+  }
+
+
+  @-moz-document url-prefix(){
+    .ovflw{
+      overflow: hidden;
+    }
+  }
+
+  .ovflw{
+    overflow: hidden;
+  }
