@@ -14,7 +14,7 @@ var instances = M.Sidenav.init(elems, {});
 //typewriter function
 var i = 0;
 var txt = "Hey there! I am a third year IT undergrad at Manipal Institute of Technology. I'm a self-trained Stack Developer, with proficiency in responsive web design and good experience in developing RESTful APIs using NodeJS."; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var speed =30 ; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
 if (i < txt.length) {
