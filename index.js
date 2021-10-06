@@ -141,7 +141,7 @@ let createTableMobile = (item) => {
 
 //typewriter function
 var i = 0;
-var txt = "Hey there! I am a fourth year IT undergrad at Manipal Institute of Technology. I'm a self-trained Stack Developer, with proficiency in responsive web design and good experience in developing RESTful APIs using NodeJS."; /* The text */
+var txt = "I am a working professional  at PwC Acceleration Centre .I graduated with an undergrad degree in Information Technology from Manipal Institute Of Technology in 2020 . I'm a self-trained Fullstack Developer, with proficiency in responsive web design and good experience in developing RESTful APIs using NodeJS. I am also a Salesforce developer, and have enabled clients to transform their digital processes and to become more efficient by using Salesforce. "; /* The text */
 var speed =30 ; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
